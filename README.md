@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="zt-console" width="880"></p>
+
 ![Ziggy using the zt-console](https://raw.githubusercontent.com/hanzozt/zt-console/main/projects/zt-console-lib/src/lib/assets/banners/ZAC.jpg)
 
 <p align="center" width="100%">
