@@ -1,5 +1,6 @@
 /*
-    Copyright 2020 Hanzo AI, Inc.
+    Copyright 2020 NetFoundry Inc.
+    Modifications Copyright (c) 2026 Hanzo AI, Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
