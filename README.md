@@ -152,3 +152,12 @@ From the project directory:
     ```bash
     ng build zt-console-node --watch
     ```
+
+## Attribution
+
+Hanzo ZT Console is derived from the [OpenZiti Admin Console](https://github.com/openziti/ziti-console)
+(`openziti/ziti-console`), Copyright NetFoundry Inc., licensed under Apache-2.0.
+See [NOTICE](./NOTICE) and [LICENSE](./LICENSE).
+
+`release-notes.md` is upstream's release history and documents NetFoundry's development
+of the Ziti Admin Console, not Hanzo's.
