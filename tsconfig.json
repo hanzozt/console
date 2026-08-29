@@ -2,7 +2,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -29,14 +28,15 @@
       "dom"
     ],
     "paths": {
+      "*": ["./*"],
       "zt-console-lib": [
-        "dist/zt-console-lib"
+        "./dist/zt-console-lib"
       ],
       "json-schema-ref-resolver": [
-        "dist/json-schema-ref-resolver"
+        "./dist/json-schema-ref-resolver"
       ],
       "app-zt-console": [
-        "dist/app-zt-console"
+        "./dist/app-zt-console"
       ]
     }
   },

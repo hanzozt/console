@@ -193,10 +193,7 @@ app.use(bodyParser.json());
 app.use(fileUpload());
 app.use(session({ 
 	store: new sessionStore({}), 
-	// Session signing key. Sourced from the environment (KMS-provisioned in
-	// production); a random per-boot fallback keeps a dev instance working
-	// without shipping a shared secret that is identical on every install.
-	secret: process.env.SESSION_SECRET || require('crypto').randomBytes(32).toString('hex'),
+	secret: 'HanzoZeroTrust',
 	retries: 0, 
 	resave: true, 
 	saveUninitialized: true, 
